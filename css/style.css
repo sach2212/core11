@@ -240,7 +240,7 @@ section {
   }  */
   
   75%{
-      background-image: url("../images/COVER9.webp");
+      background-image: url("../images/COVER3.webp");
   }
 
 
@@ -256,7 +256,7 @@ section {
   
   min-height: 90vh;
   width: 100%;
-  animation: animate   6s ease-in-out infinite;
+  animation: animate   16s ease-in-out infinite;
    
   background-position: center;
   background-repeat: no-repeat;
@@ -1592,12 +1592,13 @@ html{
   /* z-index: 10000;*/
   font-size: 3.5rem;
   z-index: 10000;
-
+ color: #020d15;
 }
 
 #menu-btn.fa-times {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+ 
 }
 .header {
   padding: 2rem;
@@ -1608,7 +1609,7 @@ html{
   top: 100%;
   left: 0;
   right: 0;
-  background:  rgba(255, 108, 22, 0.7);
+  background:  rgba(182, 181, 180, 0.9);
 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -1624,19 +1625,12 @@ html{
   font-size: 2rem;
   color: #fff;
 }
-
-
-
-
+ 
 }
-
-
-
+ 
 @media (max-width: 991px) {
 
-
-
-
+ 
   .h-welcome  h2{
 
     font-size: 8rem;
