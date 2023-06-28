@@ -221,6 +221,7 @@ section {
   border: 1px solid white;
   padding: 1rem;
   border-radius: 1rem;
+
 }
 
 /* --------------------home */
@@ -1495,9 +1496,25 @@ letter-spacing: .2rem;
 
 /* faciities and about pages  */
 
-.about-page{
-  /* padding: 2rem 9%; */ 
+/* .about-page{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
+
+.about-page p{
+
+  font-size: 2rem;
+  margin-bottom: 010rem;
+}
+.about-page h3{
+
+  font-size: 4rem;
+}
+ */
 
 .ab-pagebox {
  
@@ -1586,18 +1603,19 @@ html{
 }
 
 
-#menu-btn {
+ #menu-btn {
   display: inline-block;
   display: block;
   /* z-index: 10000;*/
   font-size: 3.5rem;
   z-index: 10000;
- color: #020d15;
+ color: #f3f3f3;
 }
 
 #menu-btn.fa-times {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+  /* color: white; */
  
 }
 .header {
@@ -2188,7 +2206,12 @@ width: 100%;
 }
 
 
+.btns.price{
 
+  left: 27%;
+
+  
+  }
 
 
 
