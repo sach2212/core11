@@ -32,10 +32,10 @@ var swiper = new Swiper(".review-slider", {
     spaceBetween: 10,
     grabCursor: true,
     loop:true,
-    // autoplay: {
-    //     delay: 4500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+    },
     centeredSlides: true,
     pagination: {
       el: ".swiper-pagination",
@@ -61,10 +61,10 @@ var swiper = new Swiper(".gallery-slider", {
     spaceBetween: 10,
     grabCursor: true,
     loop:true,
-    // autoplay: {
-    //     delay: 4500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+    },
     centeredSlides: true,
     pagination: {
       el: ".swiper-pagination",
